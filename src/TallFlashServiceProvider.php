@@ -1,11 +1,11 @@
 <?php
 
-namespace WebdoCZ\LivewireFlash;
+namespace WebdoCZ\TallFlash;
 
 use Livewire\Livewire;
 use Illuminate\Support\ServiceProvider;
 
-class LivewireFlashServiceProvider extends ServiceProvider
+class TallFlashServiceProvider extends ServiceProvider
 {
     /**
      * Register the service provider.
