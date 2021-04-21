@@ -12,6 +12,7 @@ class FlashMessages extends Component
     {
         $this->messages = session()->get('flashMessages');
         session()->forget('flashMessages');
+        if(!$this->messages) $this->messages = [];
     }
 
     public function render()
