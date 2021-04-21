@@ -24,9 +24,9 @@ class TallFlashServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__. '/publish/tall-flash.php', 'livewire-flash');
+        $this->mergeConfigFrom(__DIR__. '/publish/tall-flash.php', 'tall-flash');
 
-        $this->loadViewsFrom(__DIR__ . '/views', 'livewire-flash');
+        $this->loadViewsFrom(__DIR__ . '/views', 'tall-flash');
 
         $this->publishes([
             __DIR__ . '/publish' => config_path()
